@@ -1,2 +1,2 @@
 # ATM
-a mini atm made with C
+a mini atm 
