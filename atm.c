@@ -8,7 +8,7 @@ int main()
     float balance = 100000.0;
     float transfer;
 
-    printf("welcome to sabka apna ATM🏧\nEnter pin:");
+    printf("welcome to sabka apna ATM\nEnter pin:");
     scanf("%d", &p);
 
     if (p == 7990)
@@ -23,9 +23,9 @@ int main()
 
     while (true)
     {
-        printf("1.check balance💳\n");
-        printf("2.withdrawl💸\n");
-        printf("3.deposit🤑\n");
+        printf("1.check balance\n");
+        printf("2.withdrawl\n");
+        printf("3.deposit\n");
         printf("4.exit\n");
         scanf("%d", &select);
 
@@ -45,7 +45,7 @@ int main()
                 }
                 else
                 {
-                    printf("❌insufficient amount of balance or invalid amount\n");
+                    printf("insufficient amount of balance or invalid amount\n");
                 }
                 break;
 
@@ -73,3 +73,4 @@ int main()
     }
     return 0;
 }
+
